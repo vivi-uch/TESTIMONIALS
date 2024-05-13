@@ -1,0 +1,198 @@
+body{
+  background-color: hsl(210, 46%, 95%);
+  font-size: 13px;
+  color: hsl(0, 0%, 100%);
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 5% 7%;
+}
+
+
+/* profile image */
+.profile-img{
+  border-radius: 100%;
+  margin-right: 10px;
+  width: 45px;
+  height: 45px;
+}
+
+/* header-container */
+.header-container{
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* text-container */
+.text-container{
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 2px; */
+}
+.text-container h4{
+  margin: 0;
+  /* line-height: 0; */
+}
+.text-container .small-text{
+  /* margin-top: 0; */
+  line-height: 0;
+}
+
+
+/* main container */
+.container{
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr auto;
+  gap: 12px;
+  width: 1200px;
+  height: 656px;
+}
+
+
+/* general box */
+.container .box{
+  border-radius: 10px;
+  height: 17rem;
+  padding: 25px;
+}
+
+
+/* row1  and row2*/
+.row1, .row2{
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  padding: 0;
+  /* justify-content: space-around; */
+}
+
+
+/* row1 */
+/* box1 */
+.row1 .box1{
+  background-color:hsl(263, 55%, 52%) ;
+  /* width: 500px; */
+  width:75%;
+}
+.box1 .quote-img{
+  width: 100px;
+  height: 120px;
+  position: relative;
+  /* display: none; */
+  left: 350px;
+  top: -70px;
+}
+.box1 .overlay-text{
+  position: relative;
+  top: -120px;
+}
+
+/* box2 */
+.row1 .box2{
+  background-color: hsl(217, 19%, 35%);
+  /* width: 150px; */
+  width: 30%;
+}
+
+
+/* box 3 */
+.container .box3{
+  background-color: hsl(0, 0%, 100%);
+  /* width: 100%; */
+  grid-row: span 2;
+  height: auto;
+  width: 200px;
+  /* color: hsl(0, 0%, 0%); */
+}
+
+
+/* row2 */
+/* box4 */
+.row2 .box4{
+  background-color: hsl(0, 0%, 100%);
+  /* width: 150px; */
+  width: 30%;
+  color: hsl(0, 0%, 0%);
+  /* height: 17rem; */
+}
+
+/* box5 */
+.row2 .box5{
+  background-color: hsl(219, 29%, 14%);
+  width: 75%;
+  /* height: 17rem; */
+  /* width: 500px; */
+}
+
+
+/* coloring text and sizing */
+.box .big{
+  font-size: 20px;
+}
+.box .small{
+  line-height: 1.7;
+}
+
+/* box3 and box4 */
+.container .box3, .box4{
+  color: hsl(217, 19%, 35%);
+}
+.container .box3 .big, .box4 .big{
+  color: hsl(219, 29%, 14%);
+  font-weight: 900;
+}
+
+/* box1, box2 and box5 */
+.box1, .box2, .box5{
+  color: hsl(0, 0%, 81%);
+}
+.box1 h4, .box2 h4, .box5 h4{
+  color:  hsl(0, 0%, 90%);
+}
+.box1 .big, .box2 .big, .box5 .big{
+  color:  hsl(0, 0%, 95%);
+  font-weight: 700;
+}
+
+/* attribution */
+.attribution { 
+  font-size: 11px; text-align: center;
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+/* other layouts */
+@media (max-width: 768px) {
+  .container, .row1, .row2{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+  }
+  .container .box{
+    width: 70%;
+    margin: 10px auto;
+    height: auto;
+  }
+  .box1 .quote-img{
+    width: 100px;
+    height: 120px;
+    position: relative;
+    /* display: none; */
+    left: 190px;
+    top: -70px;
+  }
+  .box1 .overlay-text{
+    position: relative;
+    top: -120px;
+  }
+}
+
+
+@media (max-width: 375px) {
+ 
+}
