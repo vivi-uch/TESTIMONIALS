@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://vivi-uch.github.io/TESTIMONIALS/)
+- Live Site URL: (https://github.com/vivi-uch/TESTIMONIALS)
 
 ## My process
 
